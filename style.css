@@ -1,0 +1,18 @@
+/*
+Theme Name: Impresion
+Theme URI: https://wordpress.org/themes/impresion/
+Author: 
+Author URI: 
+Version: 1.0
+License: GNU General Public License v2 or later
+Tags: html, css, impresion
+*/
+
+@font-face {
+  font-family: 'Modulus';
+  src: url('fonts/Modulus_Full_Family/Modulus.ttf');
+  font-weight: normal;
+  font-style: normal;
+  
+  }
+  

@@ -1,0 +1,234 @@
+body {
+    overflow-x: hidden;
+}
+
+.gray-wall_background {
+    background-image: url("../images/bgs/Optimized-NEON-Group.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blue-wall_background {
+    background-image: url("../images/bgs/Optimized-publicidad.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first-section__content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-section{
+    font-family: pacifico;
+    color: white;
+    font-size: 20px;
+}
+
+.header-section .left {
+    text-align: right;
+}
+
+.header-section .logo {
+    position: relative;
+}
+.header-section .logo img {
+    width: 100%;
+    width: 275%;
+    left: -85%;
+    position: absolute;
+    top: -70%;
+}
+
+.cover-text {
+    background-color: white;
+    margin-top: 15%;
+    text-align: right;
+    white-space: pre-line;
+    padding: 20px 18px;
+}
+
+.cover-text .title{
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #9b9b9d;
+  }
+.cover-text .subtitle{
+    font-size: 16px;
+    margin-top: -35px;
+}
+.cover-text .content-text{
+    font-size: 10px;
+    color: #9b9b9d;
+    padding-bottom: 0px;
+    margin-top: -25px;
+    margin-bottom: 0rem;
+  
+}
+.nosotros_content{
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+.nosotros_table img {
+    width: 110%;
+}
+
+.nosotros_table .right {
+    font-family: Modulus;
+    color: white;
+    text-align: center;
+    white-space: pre-line;
+    font-size: 10px;
+}
+.nosotros_content .banner {
+    padding-top: 21px;
+    padding: 0;
+}
+.nosotros_content .banner img {
+    width: 100%;
+}
+
+.icon-section {
+    padding: 0;
+}
+
+.icon-section .icon {
+    padding: 0;
+}
+
+.icon-section .icon img {
+    width: 100%
+}
+
+.icon-section .label {
+    font-size: 11px;
+}
+
+.icon-section .label.green {
+    color: #41c951;
+}
+
+.icon-section .label.blue {
+    color: #00bcd4;
+}
+
+.icon-section .label.red {
+    color: #f44336;
+}
+
+.icon-section .label .label-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content-section .label,
+.content-section .list {
+    padding: 0;
+    height: 85px;
+    display: table;
+    font-family: Modulus;
+}
+
+.content-section .body{
+    color: white;
+    white-space: pre-line;
+    font-size: 10px;
+    padding: 0;
+    padding-left: 15px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fifth-section {
+    font-family: Modulus;
+    font-size: 14px;
+    color: white;
+}
+
+@media (min-width: 375px) {
+    .first-section .header-section {
+        font-size: 26px;
+    }
+    .logo img {
+        top: -55%
+    }
+    .icon-section .label {
+        font-size: 12px;
+    }
+    .content-section .label,
+    .content-section .list {
+        height: 100px;        
+    }
+    .header-section .logo img {
+        top: -50%;
+    }
+}
+
+@media (min-width: 425px) {
+    .first-section .header-section {
+        font-size: 30px;
+    }
+    .logo img {
+        top: -55%
+    }
+    .icon-section .label {
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) {
+    .header-section .left,
+    .header-section .right {
+        font-size: 40px;
+    }
+    .header-section .left {
+        text-align: left;
+    }
+    .header-section .right {
+        text-align: right;
+        margin-top: 29%
+    }
+    .header-section .logo img {
+        width: 177%;
+        top: -18%;
+        left: -66%;
+    }
+    .first-section .header-section {
+        font-size: 30px;
+    }
+    .logo img {
+        top: -55%
+    }
+    .icon-section .label {
+        font-size: 19px;
+    }
+    .content-section .label,
+    .content-section .list {
+        text-align: center;
+        height: auto;
+    }
+    .content-section .body{
+        padding-left: 0;
+    }
+    .nosotros_table .left img {
+        width: 100%
+    }
+    .nosotros_table .right {
+        font-size: 16px
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-section .left,
+    .header-section .right {
+        font-size: 52px;
+    }
+    .cover-text {
+        margin-top: 25%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .header-section .left,
+    .header-section .right {
+        font-size: 62px;
+    }
+
+}
