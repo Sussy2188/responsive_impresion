@@ -1,7 +1,13 @@
 body {
     overflow-x: hidden;
+    margin-top: 4%;
 }
-
+.navbar-dark .navbar-nav .nav-link {
+    color: #949b9c;
+}
+.bg-dark {
+    background-color: #ffffff!important;
+}
 .gray-wall_background {
     background-image: url("../images/bgs/Optimized-NEON-Group.png");
     background-repeat: no-repeat;
@@ -13,7 +19,7 @@ body {
     background-size: cover;
 }
 .first-section__content {
-    padding-top: 30px;
+    padding-top: 70px;
     padding-bottom: 30px;
 }
 
