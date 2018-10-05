@@ -11,7 +11,7 @@
 </head>
 <body>      
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
          <a class="navbar-brand" href="#">
             <img src=" <?php echo get_stylesheet_directory_uri() ?>/images/Logo-ImpresON.png" width="175" height="auto"class="img-responsive"/>
          </a>

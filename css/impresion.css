@@ -2,11 +2,13 @@ body {
     overflow-x: hidden;
     margin-top: 4%;
 }
-.navbar-dark .navbar-nav .nav-link {
-    color: #949b9c;
-}
-.bg-dark {
-    background-color: #ffffff!important;
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    padding-top: 44px;
 }
 .gray-wall_background {
     background-image: url("../images/bgs/Optimized-NEON-Group.png");
